@@ -6,3 +6,4 @@ Spring Cloud 实战项目：
   
   用户服务 user
 
+  统一配置中心服务 config

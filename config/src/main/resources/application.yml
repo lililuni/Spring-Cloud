@@ -1,0 +1,29 @@
+#服务名
+spring:
+ application:
+    name: configLiu
+ cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lililuni/Spring-Cloud/
+          username: lililuni
+          password: 10221114520love
+          basedir: H:\springCloud\liao\config\basedir
+          #仓库相对路径
+          searchPaths: config-repo
+
+#向注册中心注册 
+eureka:
+ client: 
+   service-url:
+    defaultZone: http://218.197.229.216:8761/eureka/
+
+#服务端口号  
+server:
+ port: 9103  
+ 
+ 
+
+
+  

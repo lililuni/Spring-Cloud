@@ -1,0 +1,31 @@
+spring:
+  #服务名
+  application:
+    name: order     
+  cloud:
+    config:
+      profile: dev #env 对应的环境变量
+      discovery:
+        enabled: true #开启通过服务来访问 config server的功能
+        service-id: configLiu #config server 注册到注册中心的服务名
+
+#端口号
+server:
+  port: 9102
+  
+#向注册中心注册 
+eureka:
+ client: 
+   service-url:
+    defaultZone: http://218.197.229.216:8761/eureka/
+    
+  
+
+
+
+ 
+
+
+
+
+  

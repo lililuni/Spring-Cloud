@@ -7,4 +7,4 @@ Spring Cloud 实战项目：
 3. 用户服务 user
 
 4. 统一配置中心服务 config  
-  开发过程：https://blog.csdn.net/lililuni/article/details/83547492
+  服务端和客户端开发过程：https://blog.csdn.net/lililuni/article/details/83547492
